@@ -21,6 +21,45 @@
 			margin: 0px 0px 0px 40px;
 		}
 	}
+	.our {
+		&__row {
+			padding: 65px 0px 25px 0px;
+		}
+		&__text {
+		}
+		&__h {
+			max-width: 748px;
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 34px;
+			font-weight: 400;
+			line-height: 41.49px;
+			text-transform: uppercase;
+			font-family: Montserrat;
+			font-weight: 700;
+			span {
+				font-family: Montserrat;
+				font-weight: 400;
+			}
+		}
+		&__p {
+			color: #252525;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-weight: 300;
+			line-height: 30.57px;
+		}
+		&__btn {
+			padding: 14px 0px 0px 30px;
+			width: 279px;
+			height: 82px;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 37px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
 }
 @media (max-width: 990px) {
 	.header {
@@ -71,6 +110,111 @@
 			img {
 				max-width: 100%;
 			}
+		}
+	}
+	.our {
+		&__row {
+			padding: 65px 0px 25px 0px;
+		}
+		&__text {
+			text-align: center;
+			margin: 0 auto;
+		}
+		&__btn {
+			margin: 15px auto;
+			padding: 14px 0px 0px 30px;
+			width: 279px;
+			height: 82px;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 37px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
+	.news {
+		&__top {
+			margin: 18px 0px 18px 0px;
+			color: #376f9e;
+			font-family: Montserrat;
+			font-size: 48px;
+			font-weight: 400;
+			line-height: 33.81px;
+			text-transform: uppercase;
+		}
+		&__content {
+			border-left: none;
+			margin: 20px 0px 0px 0px;
+			border-top: 1px solid #e8e8e8;
+			padding: 20px 0px 0px 0px;
+			&:first-child {
+				padding: 20px 0px 0px 0px;
+			}
+		}
+	}
+	.school {
+		background-image: url(../img/sd.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		&__h {
+			margin: 40px 0px 0px 0px;
+			font-size: 45px;
+			line-height: 54.23px;
+		}
+		&__text {
+			text-align: center;
+		}
+		&__p {
+			color: #383838;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-weight: 300;
+			margin: 14px 0px 44px 0px;
+		}
+		&__row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		&__btn {
+			margin: 0px auto;
+		}
+		&__content {
+			padding: 350px 0px 0px 0px;
+		}
+		&__box {
+			margin: 10px auto;
+		}
+	}
+	.group {
+		&__row {
+			margin: 50px 0px 32px 0px;
+			flex-wrap: wrap;
+		}
+		&__text {
+			width: 680px;
+		}
+		&__h {
+			color: #376f9e;
+			font-family: Montserrat;
+			font-size: 46px;
+			font-weight: 800;
+			line-height: 54.42px;
+			text-transform: uppercase;
+		}
+		&__p {
+			margin: 46px 0px 50px 0px;
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 24px;
+		}
+		&__img {
+			width: 602px;
+			height: 526px;
+			background-image: url(../img/ds.png);
 		}
 	}
 }
@@ -168,7 +312,7 @@
 	}
 	.menu__list {
 		display: block;
-		margin: 100px 0px 0px 0px;
+		margin: 50px 0px 0px 0px;
 	}
 	.menu__list>li{
 		margin: 0px 0px 20px 0px;
@@ -202,13 +346,24 @@
 			justify-content: space-evenly;
 			flex-wrap: wrap;
 		}
+		&__content {
+		}
 		&__img {
+			display: none;
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: top center;
-			background-image: url(../img/2-layers.png);
 			width: 420px;
 			height: 435px;
+		}
+		&__img2 {
+			margin: 0 auto;
+			display: block;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+			width: 380px;
+			height: 385px;
 		}
 		&__btn {
 			width: 313px;
@@ -227,9 +382,8 @@
 			margin: 40px 0px 0px 0px;
 			display: block;
 		}
-		&__img {}
 		&__text {
-			margin: 0px 0px 0px 0px;
+			margin: 20px 0px 0px 0px;
 			width: auto;
 		}
 		&__h {
@@ -273,6 +427,16 @@
 			}
 		}
 	}
+	.group {
+		&__img {
+			margin: 10px 0px 0px 0px;
+			width: 282px;
+			height: 246px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+	}
 }
 @media (max-width: 575px) {
 	.header {
@@ -309,6 +473,10 @@
 		&__img {
 			width: 370px;
 			height: 335px;
+		}
+		&__img2 {
+			width: 300px;
+			height: 305px;
 		}
 		&__h {
 			font-size: 44px;
@@ -370,10 +538,116 @@
 			margin: 0 auto;
 			width: 253px;
 			display: block;
+			padding: 0px 0px 20px 0px;
 			img {
 				max-width: 100%;
 			}
 		}
 	}
-
+	.our {
+		&__row {
+			padding: 65px 0px 25px 0px;
+		}
+		&__text {
+			text-align: center;
+			margin: 0 auto;
+		}
+		&__h {
+			max-width: 748px;
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 36.49px;
+			text-transform: uppercase;
+			font-family: Montserrat;
+			font-weight: 700;
+			span {
+				font-family: Montserrat;
+				font-weight: 400;
+			}
+		}
+		&__p {
+			color: #252525;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 24.57px;
+		}
+		&__btn {
+			margin: 15px auto;
+			padding: 14px 0px 0px 30px;
+			width: 279px;
+			height: 82px;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 37px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+	}
+	.school {
+		background-image: url(../img/sd.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		&__h {
+			margin: 20px 0px 0px 0px;
+			font-size: 30px;
+			line-height: 45.23px;
+		}
+		&__text {
+			text-align: center;
+		}
+		&__p {
+			color: #383838;
+			font-family: Montserrat;
+			font-size: 17px;
+			font-weight: 300;
+			margin: 14px 0px 44px 0px;
+		}
+		&__row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		&__btn {
+			width: 319px;
+			height: 82px;
+			margin: 0px auto;
+			padding: 14px 0px 0px 18px;
+		}
+		&__content {
+			padding: 250px 0px 0px 0px;
+		}
+		&__box {
+			margin: 10px auto;
+		}
+	}
+	.group {
+		&__img {
+			margin: 10px 0px 0px 0px;
+			width: 282px;
+			height: 246px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+		&__h {
+			color: #376f9e;
+			font-family: Montserrat;
+			font-size: 32px;
+			font-weight: 800;
+			line-height: 40.42px;
+			text-transform: uppercase;
+		}
+		&__p {
+			margin: 26px 0px 30px 0px;
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 24px;
+		}
+	}
 }

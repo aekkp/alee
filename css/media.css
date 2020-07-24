@@ -20,6 +20,42 @@
   .menu__link {
     margin: 0px 0px 0px 40px;
   }
+
+  .our__row {
+    padding: 65px 0px 25px 0px;
+  }
+  .our__h {
+    max-width: 748px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41.49px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .our__h span {
+    font-family: Montserrat;
+    font-weight: 400;
+  }
+  .our__p {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30.57px;
+  }
+  .our__btn {
+    padding: 14px 0px 0px 30px;
+    width: 279px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 @media (max-width: 990px) {
   .header__search {
@@ -66,6 +102,109 @@
   }
   .globus__center img {
     max-width: 100%;
+  }
+
+  .our__row {
+    padding: 65px 0px 25px 0px;
+  }
+  .our__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .our__btn {
+    margin: 15px auto;
+    padding: 14px 0px 0px 30px;
+    width: 279px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .news__top {
+    margin: 18px 0px 18px 0px;
+    color: #376f9e;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.81px;
+    text-transform: uppercase;
+  }
+  .news__content {
+    border-left: none;
+    margin: 20px 0px 0px 0px;
+    border-top: 1px solid #e8e8e8;
+    padding: 20px 0px 0px 0px;
+  }
+  .news__content:first-child {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .school {
+    background-image: url(../img/sd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .school__h {
+    margin: 40px 0px 0px 0px;
+    font-size: 45px;
+    line-height: 54.23px;
+  }
+  .school__text {
+    text-align: center;
+  }
+  .school__p {
+    color: #383838;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 14px 0px 44px 0px;
+  }
+  .school__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .school__btn {
+    margin: 0px auto;
+  }
+  .school__content {
+    padding: 350px 0px 0px 0px;
+  }
+  .school__box {
+    margin: 10px auto;
+  }
+
+  .group__row {
+    margin: 50px 0px 32px 0px;
+    flex-wrap: wrap;
+  }
+  .group__text {
+    width: 680px;
+  }
+  .group__h {
+    color: #376f9e;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 54.42px;
+    text-transform: uppercase;
+  }
+  .group__p {
+    margin: 46px 0px 50px 0px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .group__img {
+    width: 602px;
+    height: 526px;
+    background-image: url(../img/ds.png);
   }
 }
 @media (max-width: 770px) {
@@ -174,7 +313,7 @@
 
   .menu__list {
     display: block;
-    margin: 100px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
   }
 
   .menu__list > li {
@@ -215,12 +354,21 @@
     flex-wrap: wrap;
   }
   .main__img {
+    display: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-image: url(../img/2-layers.png);
     width: 420px;
     height: 435px;
+  }
+  .main__img2 {
+    margin: 0 auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 380px;
+    height: 385px;
   }
   .main__btn {
     width: 313px;
@@ -237,7 +385,7 @@
     display: block;
   }
   .business__text {
-    margin: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     width: auto;
   }
   .business__h {
@@ -276,6 +424,15 @@
   .globus__center img {
     max-width: 100%;
   }
+
+  .group__img {
+    margin: 10px 0px 0px 0px;
+    width: 282px;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
 }
 @media (max-width: 575px) {
   .header__row {
@@ -312,6 +469,10 @@
   .main__img {
     width: 370px;
     height: 335px;
+  }
+  .main__img2 {
+    width: 300px;
+    height: 305px;
   }
   .main__h {
     font-size: 44px;
@@ -368,8 +529,114 @@
     margin: 0 auto;
     width: 253px;
     display: block;
+    padding: 0px 0px 20px 0px;
   }
   .globus__center2 img {
     max-width: 100%;
+  }
+
+  .our__row {
+    padding: 65px 0px 25px 0px;
+  }
+  .our__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .our__h {
+    max-width: 748px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.49px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .our__h span {
+    font-family: Montserrat;
+    font-weight: 400;
+  }
+  .our__p {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24.57px;
+  }
+  .our__btn {
+    margin: 15px auto;
+    padding: 14px 0px 0px 30px;
+    width: 279px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .school {
+    background-image: url(../img/sd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .school__h {
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    line-height: 45.23px;
+  }
+  .school__text {
+    text-align: center;
+  }
+  .school__p {
+    color: #383838;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 14px 0px 44px 0px;
+  }
+  .school__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .school__btn {
+    width: 319px;
+    height: 82px;
+    margin: 0px auto;
+    padding: 14px 0px 0px 18px;
+  }
+  .school__content {
+    padding: 250px 0px 0px 0px;
+  }
+  .school__box {
+    margin: 10px auto;
+  }
+
+  .group__img {
+    margin: 10px 0px 0px 0px;
+    width: 282px;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .group__h {
+    color: #376f9e;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40.42px;
+    text-transform: uppercase;
+  }
+  .group__p {
+    margin: 26px 0px 30px 0px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
   }
 }
